@@ -1,0 +1,40 @@
+{
+  "name": "Chrome Extension Webpack Boilerplate",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Chrome Extension Webpack Boilerplate, to get started quickly with chrome extension development with all setup done.",
+  "permissions": [
+    "tabs",
+    "<all_urls>",
+    "storage",
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "img/icon16.png",
+    "32": "img/icon32.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "img/icon16.png",
+      "32": "img/icon32.png",
+      "48": "img/icon48.png",
+      "128": "img/icon128.png"
+    },
+    "default_title": "Chrome Extension Webpack Boilerplate",
+    "default_popup": "pages/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "content_scripts": [
+  ],
+  "options_ui": {
+    "page": "pages/options.html",
+    "chrome_style": true,
+    "open_in_tab": true
+  }
+}
