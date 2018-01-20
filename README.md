@@ -1,5 +1,7 @@
 # Chrome Extension Webpack Boilerplate
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/53fe1760e70ec88b641b/maintainability)](https://codeclimate.com/github/nitish173/chrome-extension-webpack-boilerplate/maintainability)
+
 A boilerplate for chrome extensions development with webpack.
 
 Getting started: 
